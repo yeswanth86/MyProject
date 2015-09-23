@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #Author=Yeswanth
-# Print greater Number amount 3 numbers, if all number are equal than print noting.
+# Print greater Number amoung 3 numbers, if all numbers are equal than print noting.
 
 
 print ("Enter 3 numbers")
@@ -10,7 +10,7 @@ z = int(raw_input('enter a number Z:'))
 
 if x > y and x > z:
     print("{} is greater than {},{}") .format(x,y,z)
-    pass
+#    pass
 elif y > x and y > z:
     print("{} is greater than {},{}") .format(y,x,z)
 elif z > x and z > y:
